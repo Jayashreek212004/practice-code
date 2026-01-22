@@ -1,7 +1,71 @@
-/*Write a program to calculate the area of the Rectangle.
+/* 1.Write a program to calculate the area of the Rectangle.
 Note: Area of Rectangle = Length of Rectangle x Breadth of
 Rectangle*/
 
 Length=int(input())
 Breadth=int(input())
 print(Length*Breadth)
+
+/* 2.Write a program to calculate the perimeter of a rectangle.
+Note: Perimeter of Rectangle = 2(Length of Rectangle +
+Breadth of Rectangle) */
+
+length_of_rectangle=int(input())
+breadth_of_rectangle=int(input())
+primeter_of_rectangle=2*(length_of_rectangle+breadth_of_rectangle)
+print(primeter_of_rectangle)
+
+/* 3.Write a program to take the number of kilometers as input and
+convert into meters and print the number of meters.
+Note: 1 Kilometer = 1000 Meters*/
+
+w1=float(input("enter the  kilometer in float formate"))
+c=int(w1*1000)
+print(c)
+
+/* 4.Write a program that reads a percentage
+of the number 200.
+
+The Percentage (P) of Number (N) can be calculated as:
+
+value = (percentage / 100) * number   */
+
+w1=int(input())
+value=(w1/100)*200
+print(value)
+
+/*5.Write a program that reads a dividend and a divisor and prints
+the remainder.
+
+Note
+
+For Example, if 7 is divided by 2 (7/2),
+Dividend: 7
+
+Divisor <-- 2 ) 7 (3 -- > Quotient
+                6
+              _____
+                1 -- > Remainder
+
+Formula to Calculate Remainder:
+
+Quotient should be an integer to calculate the remainder.
+remainder = dividend - (divisor * quotient)
+
+dividend=int(input())
+divisor=int(input())
+quotient=int(dividend/divisor)
+riminder=dividend-(divisor*quotient)
+print(riminder)
+
+or
+
+dividend=int(input())
+divisor=int(input())
+quotient=dividend//divisor
+riminder=dividend % divisor
+print(riminder)
+
+
+this is another anser like // integer division and % modulo operatot\r it give the remainder
+
