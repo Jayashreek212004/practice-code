@@ -69,3 +69,49 @@ print(riminder)
 
 this is another anser like // integer division and % modulo operatot\r it give the remainder
 
+/* 6.Write a program that prints the sum of the digits of a given
+three-digit number.*/
+
+w1=input()
+R=int(w1[0])+int(w1[1])+int(w1[2])
+print(R)
+
+/* Given a word W and an integer N, write a program to print the
+character present at the index N in the word W.*/
+
+W=input()
+N=int(input())
+print(W[N])
+
+/*Given a word and a number N, write a program to print the
+given word, N number of times in a single line.*/
+
+w=input()
+n=int(input())
+print(w*n)
+
+/*Write a program to read a single line of input and print the first
+three characters in it.*/
+
+w=input()
+r=w[0:3]
+print(r)
+
+/* Write a program that reads a word and an index and prints a
+part of the word from the given index to the end of the word.*/
+
+word = input()
+start_index = input()
+start_index = int(start_index)
+
+part = word[start_index:]
+print(part)
+
+/* Write a program that reads a word and two indices (X, Y) and
+prints a part of the word from the index X to the index Y.*/
+
+w=input()
+i1=int(input())
+i2=int(input())+1
+r=w[i1:i2]
+print(r)
