@@ -1,0 +1,9 @@
+Write a program that reads two words
+checks if the second word
+B is the last part of the first word A
+
+w1=input()
+w2=input()
+l1=len(w1)
+l2=len(w2)
+print(w1[l1-l2:]==w2[0:])
