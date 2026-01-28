@@ -1,0 +1,25 @@
+Write a program that reads two numbers A and B and checks whether both the sum and the product of the given numbers have less than three digits.
+
+A=input()
+B=input()
+R=str(int(A)+int(B))
+J=str(int(A)*int(B))
+L1=len(R)
+L2=len(J)
+print(L1<3 and L2<3)
+
+Write a program that reads a three-digit number and checks if
+the given number contains 0.
+A=input()
+print(A[0]=="0" or A[1]=="0" or A[2]=="0")
+
+Write a program that reads a four-digit number and checks if
+the first two digits of the number is 19 and the last two digits of
+the number is between 30 and 60.
+A=input()
+print(A[:2]=="19" and int(A[2:])>30 and int(A[2:])<60)
+
+Write a program that reads a three-digit number and checks whether any of the following conditions is satisfied:
+A.Each digit of the given number is greater than 7.
+B.The product of any two digits of the number is less than or equal to 30.
+
