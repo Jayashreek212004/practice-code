@@ -70,3 +70,5 @@ if(C and R):
 else:
     print("Cannot team up")
 
+1
+
