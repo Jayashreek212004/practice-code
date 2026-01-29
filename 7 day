@@ -10,3 +10,63 @@ if(age>=18):
 else:
     print("Not Eligible")
 
+Write a program that reads a temperature and checks if the
+given temperature is between 15 and 40.
+
+Print Can go for a walk if the given temperature is between
+15 and 40, otherwise print Cannot go for a walk.
+
+tem=int(input())
+if(tem>15 and tem<40):
+    print("Can go for a walk")
+else:
+    print("Cannot go for a walk")
+
+
+Write a program that reads two numbers A and B and prints the greatest among the two numbers.
+A=int(input())
+B=int(input())
+if(A>B):
+    print(A)
+else:
+    print(B)
+
+Write a program that reads a number and checks if the given
+number is zero, positive or negative.
+
+Print Zero if the given number is equal to 0.
+Print Positive if the given number is greater than O.
+Print Negative if the given number is less than 0.
+
+A=int(input())
+if(A<0):
+    print("Negative")
+elif(A>0):
+    print("Positive")
+else:
+    print("Zero")
+
+
+Write a program that reads the size of a book S and the page count C.
+If S is equal to "large" or C is greater than or equal to 300, print Buy a Book.
+Otherwise, print Do Not Buy a Book.
+
+S=input()
+C=int(input())
+if(S=="large" or C>=300):
+    print("Buy a Book")
+else:
+    print("Do Not Buy a Book")
+
+**Write a program that reads the scores of two players A and B and checks if one of the scores is greater than 300 and the sum of the scores is less than 500.
+If the condition is satisfied
+
+A=int(input())
+B=int(input())
+C=A>300 or B>300
+R=A+B<500
+if(C and R):
+    print("Can team up")
+else:
+    print("Cannot team up")
+
