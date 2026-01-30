@@ -1,0 +1,17 @@
+Write a program that reads a string S and checks whether either of the following conditions is satisfied:
+
+The length of S is between 2 and 7 (inclusive), OR
+
+The first character of S is not equal to 'a'.
+
+If at least one of the above conditions is true, print Valid String.
+Otherwise, print Not a Valid String.
+
+S=input()
+l1=len(S)
+R=l1>2 and l1<7
+C=S[0]!='a'
+if(R or C):
+    print("Valid String")
+else:
+    print("Not a Valid String")
