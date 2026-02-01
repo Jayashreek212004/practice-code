@@ -1,0 +1,9 @@
+Write a program that reads a number N and checks whether N is divisible by 7.
+If N is divisible by 7, print Divisible by Seven. Otherwise, print Not Divisible by Seven.
+
+N=int(input())
+divisible=N%7==0
+if(divisible):
+    print("Divisible by Seven")
+else:
+    print("Not Divisible by Seven")
