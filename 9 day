@@ -1,0 +1,12 @@
+Write a program that reads two numbers A and B.
+Find the remainder when A is divided by B and the remainder when B is divided by A.
+Print the smallest among the two remainders.
+
+A=int(input())
+B=int(input())
+R=A%B
+C=B%A 
+if(R<C):
+    print(R)
+else:
+    print(C)
