@@ -1,0 +1,14 @@
+Write a program that reads an amount A and prints the minimum number of 500, 50, 10, and 1 rupee notes required for the given amount.
+
+A=int(input())
+
+m_500=A//500
+A=A%500
+m_50=A//50
+A=A%50
+m_10=A//10 
+A=A%10 
+m_1=A//1 
+A=A%1
+print("500: "+str(m_500)+" 50: "+str(m_50)+" 10: "+str( m_10)+" 1: "+str( m_1))
+ 
