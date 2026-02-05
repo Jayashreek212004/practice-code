@@ -1,0 +1,35 @@
+Abhinav and Anjali are playing a game called Rock–Paper–Scissors.
+Each player shows one of the following three options:
+Rock
+Paper
+Scissors
+
+The rules of the game are:
+
+Rock beats Scissors
+Scissors beats Paper
+Paper beats Rock
+If both players choose the same option, the game is a tie
+
+P1=input()
+P2=input()
+if(P1=="Rock" and P2=="Paper"):
+    print("Anjali Wins")
+elif(P1=="Rock" and P2=="Scissors"):
+    print("Abhinav Wins")
+elif(P1=="Paper" and P2=="Rock"):
+    print("Abhinav Wins")
+elif(P1=="Paper" and P2=="Scissors"):
+    print("Anjali Wins")
+elif(P1=="Scissors" and P2=="Rock"):
+    print("Anjali Wins")
+elif(P1=="Scissors" and P2=="Paper"):
+    print("Abhinav Wins")
+elif(P1=="Rock" and P2=="Rock"):
+    print("Tie")
+elif(P1=="Paper" and P2=="Paper"):
+    print("Tie")
+elif(P1=="Scissors" and P2=="Scissors"):
+    print("Tie")
+    
+
