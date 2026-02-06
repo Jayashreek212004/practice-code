@@ -1,0 +1,10 @@
+Write a program that reads a number N and prints the
+number 0
+N times on
+N lines.
+
+N=int(input())
+i=0
+while(i<N):
+    print("0")
+    i=i+1
