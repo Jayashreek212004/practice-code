@@ -1,0 +1,13 @@
+Write a program that reads a number N
+of squares of N numbers starting from 1.
+
+and prints the sum
+
+N=int(input())
+i=1
+sum=0
+while(i<=N):
+    C=i**2 
+    sum=sum+C 
+    i=i+1 
+print(sum)
